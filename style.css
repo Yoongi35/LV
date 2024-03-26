@@ -1,0 +1,102 @@
+body {
+    font-family: "Rakkas";
+    margin: 20px;
+    padding: 10px;
+    background-color: #ffeaea;
+}
+body {
+    background-image: url('s.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+.video {
+    background-image: url('art.webp');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+
+
+.titulo {
+    background-color: #000000;
+    color: #ff8080;
+    padding: 10px;
+    text-align: center;
+}
+.titulo {
+    background-image: url('IMG/n.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+
+.menu {
+    background-color: #ff8080;
+    color: #bcbcde;
+    padding: 1px;
+    text-align: center;
+}
+
+.menu ul {
+    list-style-type: circle;
+    padding: 0px;
+}
+
+.menu ul li {
+    display: inline;
+    margin-right: 40px;
+}
+
+.menu ul li a {
+    color: black;
+    font-family: Workbench;
+}
+
+h2, h3 {
+    color: #200040;
+}
+
+p {
+    margin: 10px 0;
+    line-height: 1.9;
+}
+
+.linea {
+    background-color: #550b51;
+    height: 5px;
+    width: 100%;
+    display: block;
+}
+
+.galeria {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    width: 95%;
+    margin: auto;
+    grid-gap: 10px;
+    padding: 40px 0;
+    overflow: hidden;
+}
+
+.galeria > a{
+    display: block;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0 6px rgba(0, 0, 0, .5);
+}
+
+.galeria img {
+    width: 100%;
+    vertical-align: top;
+    height: 300px;
+    object-fit: cover;
+    transition: transform 0.5s;
+}
+
+.galeria a:hover img{
+    filter: blur(2px);
+    transform: rotate(10deg) scale(1.3);  
+}
+
+
